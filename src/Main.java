@@ -4,8 +4,8 @@ public class Main {
         Car car = new Car("toyota");
         Bike bike = new Bike("Scott");
 
-        System.out.println(car.getName() + " is " + car.getType());
-        System.out.println(bike.getName() + " is " + bike.getType());
+        System.out.println(car.getName() + " is " + car.getPropulsion());
+        System.out.println(bike.getName() + " is " + bike.getPropulsion());
 
 
 
